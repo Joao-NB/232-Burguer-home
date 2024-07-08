@@ -1,0 +1,117 @@
+section.slider{
+    user-select: none;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slider-content{
+    display: flex;
+    z-index: 2;
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slider-content input, .img-mobile{
+    display: none;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.slide-box img{
+    width: 100%;
+}
+
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid rgba(255, 255, 255, 0.364);
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 20px;
+}
+
+.nav-manual .manual-btn:hover{
+    background-color: #EDB11B;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1 {
+    background-color: #EDB11B;
+}
+#radio2:checked ~ .nav-auto .auto-btn2 {
+    background-color: #EDB11B;
+}
+#radio3:checked ~ .nav-auto .auto-btn3 {
+    background-color: #EDB11B;
+}
+
+#radio1:checked ~.primeiro{
+    margin-left: 0%;
+}
+#radio2:checked ~.primeiro{
+    margin-left: -25%;
+}
+#radio3:checked ~.primeiro{
+    margin-left: -50%;
+}
+
+/*NAV ARROW*/   
+.nav-arrows {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 55%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.nav-arrows .arrow {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.544);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.nav-arrows .arrow:hover {
+    color: rgba(255, 255, 255, 0.847);
+}
+
+/*BUTTOM VER MAIS*/
+.ver-mais {
+    font-family: "Leckerli One", cursive;
+    color: white;
+    position: absolute; 
+    top: 568px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background-color: #1046A8;
+    border: none;
+    padding: 11px 90px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 0; /* Menor que o z-index dos rádios para ficar atrás */
+}

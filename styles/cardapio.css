@@ -1,0 +1,23 @@
+.cardapio{
+    margin-top: 70px;
+    height: 50%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#frango-img{
+    height: auto;
+}
+
+#muito-sabor{
+    font-size: 100px;
+    color: #fff;
+    margin-bottom: 170px;
+}
+
+#muito-arretado{
+    columns: #fff;
+    font-size: 100px;
+}

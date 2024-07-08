@@ -1,0 +1,40 @@
+/*INÍCIO DO HEADER*/
+#header{
+    background-color: #1046A8;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#logo{
+    z-index: 1;
+    margin-left: 45px;
+    border-radius: 15px;
+    width: 75px;
+    height: auto;
+    top: 20px;
+    position: relative;
+}
+
+#menu{
+    height: 40px;
+    margin-left: 140px;
+    display: flex;
+    list-style: none;
+    gap: 4.9rem;
+    font-size: 22px;
+}
+#menu a{
+    display: block;
+    padding: .5rem;
+    color: white;
+}
+
+
+@media (max-width: 1200px) {
+    #menu {
+        display: none;
+    }
+}
+
