@@ -41,14 +41,14 @@ section.slider{
 
 .nav-manual .manual-btn, .nav-auto div{
     border: 1px solid rgba(255, 255, 255, 0.364);
-    padding: 4px;
+    padding: 3px;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .nav-manual .manual-btn:hover{
@@ -90,9 +90,10 @@ section.slider{
     background-color: rgba(0, 0, 0, 0);
     color: rgba(255, 255, 255, 0.544);
     border: none;
+    margin: 30px;
     padding: 10px;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .nav-arrows .arrow:hover {
