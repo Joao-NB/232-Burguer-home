@@ -4,20 +4,25 @@
     display: flex;
     position: relative;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #frango-img{
+    position: absolute;
     height: auto;
 }
 
-#muito-sabor{
+#muito-sabor{ 
+    margin-right: 700px;
+    position: absolute;
     font-size: 100px;
     color: #fff;
     margin-bottom: 170px;
 }
 
 #muito-arretado{
+    margin-top: 180px;
+    margin-left: 780px;
     color: #fff;
     font-size: 100px;
 }
