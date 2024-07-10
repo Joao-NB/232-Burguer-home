@@ -1,28 +1,32 @@
 .cardapio{
     margin-top: 70px;
+    margin-bottom: 90%;
     height: 50%;
     display: flex;
     position: relative;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 #frango-img{
     position: absolute;
     height: auto;
+    top: 1%;
+    z-index: 900;
 }
 
 #muito-sabor{ 
-    margin-right: 700px;
     position: absolute;
     font-size: 100px;
     color: #fff;
-    margin-bottom: 170px;
+    top: 90%;
+    right: 67%;
 }
 
 #muito-arretado{
-    margin-top: 180px;
-    margin-left: 780px;
+    position: absolute;
+    top: 90%;
+    left: 65%;
     color: #fff;
     font-size: 100px;
 }
